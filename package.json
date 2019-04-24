@@ -1,0 +1,52 @@
+{
+  "name": "DRDL",
+  "description": "Resume site adapted from Dimension by HTML5 UP",
+  "version": "1.0.0",
+  "author": "Darin Levesque",
+  "dependencies": {
+    "gatsby": "^2.3.27",
+    "gatsby-image": "^2.0.40",
+    "gatsby-link": "^2.0.16",
+    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-purgecss": "^3.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-remark-copy-linked-files": "^2.0.12",
+    "gatsby-remark-images": "^3.0.11",
+    "gatsby-source-filesystem": "^2.0.31",
+    "gatsby-transformer-remark": "^2.3.10",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-obfuscate": "^3.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "homepage": "https://github.com/ChangoMan/gatsby-starter-dimension",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChangoMan/gatsby-starter-dimension.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+  }
+}
