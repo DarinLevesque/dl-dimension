@@ -30,16 +30,16 @@ const Header = (props) => (
                 />{" "}
                 <i class="fa fa-phone" aria-hidden="true"></i>{" "}
                 <Obfuscate
-                tel="603-326-8400" />
+                tel="603-326-8667" />
                 </h4>
-                <p>I am a Test Resource Manager for{" "}
-                <OutboundLink href="http://www.navair.navy.mil/">NAVAIR</OutboundLink>.<br/>
+                <p>I am a Senior Business Intelligence Developer<br /> for{" "}
+                <OutboundLink href="https://www.verticalapps.com/">Vertical Applications</OutboundLink>.<br/>
                 I thrive in fast-paced, dynamic environments.<br/>Reach out &amp; connect with me.</p>
             </div>
         </div>
         <nav>
             <ul>
-                <li>
+                {/* <li>
                     <a
                         href="javascript:;"
                         onClick={() => {
@@ -66,13 +66,13 @@ const Header = (props) => (
                         onClick={() => {
                         props.onOpenArticle('education')
                     }}>Education</a>
-                </li>
+                </li> */}
                 <li>
                     <a
                         href="javascript:;"
                         onClick={() => {
                         props.onOpenArticle('contact')
-                    }}>Contact</a>
+                    }}>Contact Me</a>
                 </li>
             </ul>
         </nav>

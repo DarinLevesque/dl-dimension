@@ -88,7 +88,7 @@ class Main extends React.Component {
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Contact Me</h2>
           <form netlify>
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -119,7 +119,7 @@ class Main extends React.Component {
               </OutboundLink>
             </li>
             <li>
-              <OutboundLink href="#" className="icon fa-instagram">
+              <OutboundLink href="https://www.instagram.com/jing0ric/" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </OutboundLink>
             </li>

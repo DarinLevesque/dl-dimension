@@ -8,5 +8,3 @@ exports.components = {
   "component---src-pages-new-page-js": () => import("E:\\Development\\dl-gatsby-dimension\\src\\pages\\new-page.js" /* webpackChunkName: "component---src-pages-new-page-js" */)
 }
 
-exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "E:\\Development\\dl-gatsby-dimension\\.cache\\data.json")
-
