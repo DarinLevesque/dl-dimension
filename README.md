@@ -5,7 +5,7 @@ Gatsby starter based on the Dimension site template, designed by [HTML5 UP](http
 
 ## Preview
 
-http://gatsby-dimension.surge.sh/
+http://darinlevesque.com
 
 ## Installation
 
