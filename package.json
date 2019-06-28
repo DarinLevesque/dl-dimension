@@ -25,7 +25,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "react-obfuscate": "^3.6.2"
+    "react-obfuscate": "^3.6.2",
+    "react-timeago": "^4.4.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
