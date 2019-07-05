@@ -4,10 +4,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link';
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faFacebook, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -78,12 +75,15 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={tie} alt=""/></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend
-            dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
-            nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum
-            primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum
-            dolor sit amet.</p>
+          <p>I grew up in a small seacoast town in New Hampshire and spent my high school
+           years in picturesque Wolfeboro attending{" "}
+           <OutboundLink href="https://www.brewsteracademy.org/">Brewster Academy</OutboundLink>.
+           In 2004 I enlisted in the United States Marines Corps serving as a CH-46E Crew Chief. After one
+           Iraq deployment I transitioned to the MV-22 Osprey and ended my service in 2014 as the
+           V-22 Osprey program's Developmental Test Crew Chief. Since then I've supported NAVAIR
+           and USACE in various roles relating to data analytics.</p>
+           <p>My gracefully beautiful wife Kelli and our five children stay extremely busy with
+           healthy activities. Whether we go to the farmers market,</p>
           {close}
         </article>
 
@@ -116,6 +116,11 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
+            <li>
+              <OutboundLink href="https://www.linkedin.com/in/darinlevesque/" className="icon">
+                <FontAwesomeIcon icon={faLinkedin} /><span className="label">LinkedIn</span>
+              </OutboundLink>
+            </li>
             <li>
               <OutboundLink href="https://twitter.com/darinlevesque" className="icon">
                 <FontAwesomeIcon icon={faTwitter} /><span className="label">Twitter</span>

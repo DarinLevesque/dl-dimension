@@ -19,7 +19,7 @@ export default () => (
           render={data => (
             <footer id="footer">
         <p className="copyright">&copy; {new Date().getFullYear()} { data.site.siteMetadata.author } - Adapted from <OutboundLink href="https://html5up.net/dimension">Dimension</OutboundLink>. Built with:{" "}
-            <OutboundLink href="https://www.gatsbyjs.org/">Gatsby.js</OutboundLink> Served with <OutboundLink href="https://www.netlify.com">Netlify</OutboundLink>
+            <OutboundLink href="https://www.gatsbyjs.org/">Gatsby</OutboundLink>. Served with <OutboundLink href="https://www.netlify.com">Netlify</OutboundLink>
         </p>
         <p className="copyright">Last Updated <TimeAgo date={ data.site.buildTime } /></p>
     </footer>

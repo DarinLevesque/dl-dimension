@@ -5,9 +5,8 @@ import Obfuscate from "react-obfuscate"
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
-import { faIdBadge } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faIdBadge } from '@fortawesome/free-regular-svg-icons'
 
 const Header = (props) => (
     <header
@@ -24,18 +23,22 @@ const Header = (props) => (
             <div className="inner">
                 <h1>Darin Levesque</h1>
                 <h4>
-                <FontAwesomeIcon icon="faEnvelope" />>{" "}
-                <Obfuscate
-                  email="darin@darinlevesque.com"
-                  headers={{
-                    subject: "DarinLevesque.com Feedback"
-                  }}
-                />{" "}
-                <FontAwesomeIcon icon="faPhone" />>{" "}
-                <Obfuscate
-                tel="603-326-8667" />
+                <span>
+                    <FontAwesomeIcon icon={faEnvelope} />{" "}
+                    <Obfuscate
+                    email="darin@darinlevesque.com"
+                    headers={{
+                        subject: "DarinLevesque.com Feedback"
+                    }}
+                    />{" "}
+                </span>
+                <span>
+                    <FontAwesomeIcon icon={faPhone} />{" "}
+                    <Obfuscate
+                    tel="603-326-8667" />
+                </span>
                 </h4>
-                <p>I am a Senior Business Intelligence Developer<br /> for{" "}
+                <p>I am a Senior Business Intelligence Developer<br /> with{" "}
                 <OutboundLink href="https://www.verticalapps.com/">Vertical Applications Inc.</OutboundLink><br/>
                 I thrive in fast-paced, dynamic environments.<br/>Reach out &amp; connect with me.</p>
             </div>
@@ -62,7 +65,7 @@ const Header = (props) => (
                         onClick={() => {
                         props.onOpenArticle('about')
                     }}>
-                        <FontAwesomeIcon icon="faIdBadge" />About
+                        <FontAwesomeIcon icon={faIdBadge} />{" "}About
                     </a>
                 </li>
                 {/*<li>
@@ -77,7 +80,7 @@ const Header = (props) => (
                         href="javascript:;"
                         onClick={() => {
                         props.onOpenArticle('contact')
-                    }}>Contact Me</a>
+                    }}><FontAwesomeIcon icon={faEnvelope} />{" "}Contact</a>
                 </li>
             </ul>
         </nav>
