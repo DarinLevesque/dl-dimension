@@ -1,8 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import avatar from "../images/avatar.jpg"
-import Obfuscate from "react-obfuscate";
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
+import Obfuscate from "react-obfuscate"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faIdBadge } from '@fortawesome/free-solid-svg-icons'
 
 const Header = (props) => (
     <header
@@ -18,22 +23,20 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Darin Levesque</h1>
-                <h4><i class="fa fa-envelope" aria-hidden="true"></i>{" "}
+                <h4>
+                <FontAwesomeIcon icon="faEnvelope" />>{" "}
                 <Obfuscate
                   email="darin@darinlevesque.com"
                   headers={{
-                    cc: "dade@zero-cool.af",
-                    bcc: "smith@machina.net",
-                    subject: "react-obfuscate",
-                    body: "Down with the machines!"
+                    subject: "DarinLevesque.com Feedback"
                   }}
                 />{" "}
-                <i class="fa fa-phone" aria-hidden="true"></i>{" "}
+                <FontAwesomeIcon icon="faPhone" />>{" "}
                 <Obfuscate
                 tel="603-326-8667" />
                 </h4>
                 <p>I am a Senior Business Intelligence Developer<br /> for{" "}
-                <OutboundLink href="https://www.verticalapps.com/">Vertical Applications</OutboundLink>.<br/>
+                <OutboundLink href="https://www.verticalapps.com/">Vertical Applications Inc.</OutboundLink><br/>
                 I thrive in fast-paced, dynamic environments.<br/>Reach out &amp; connect with me.</p>
             </div>
         </div>
@@ -52,15 +55,17 @@ const Header = (props) => (
                         onClick={() => {
                         props.onOpenArticle('experience')
                     }}>Experience</a>
-                </li>
+                </li>*/}
                 <li>
                     <a
                         href="javascript:;"
                         onClick={() => {
                         props.onOpenArticle('about')
-                    }}>About</a>
+                    }}>
+                        <FontAwesomeIcon icon="faIdBadge" />About
+                    </a>
                 </li>
-                <li>
+                {/*<li>
                     <a
                         href="javascript:;"
                         onClick={() => {

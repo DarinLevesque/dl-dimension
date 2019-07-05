@@ -3,9 +3,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link';
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faGithub} from '@fortawesome/free-brands-svg-icons'
+
+
 
 import pic01 from '../images/pic01.jpg';
-import pic02 from '../images/pic02.jpg';
+import tie from '../images/tie.webp';
 import pic03 from '../images/pic03.jpg';
 
 class Main extends React.Component {
@@ -70,7 +77,7 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt=""/></span>
+          <span className="image main"><img src={tie} alt=""/></span>
           <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend
             dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
             urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris
@@ -110,23 +117,23 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <OutboundLink href="https://twitter.com/darinlevesque" className="icon fa-twitter">
-                <span className="label">Twitter</span>
+              <OutboundLink href="https://twitter.com/darinlevesque" className="icon">
+                <FontAwesomeIcon icon={faTwitter} /><span className="label">Twitter</span>
               </OutboundLink>
             </li>
             <li>
-              <OutboundLink href="https://facebook.com/darinlevesque/" className="icon fa-facebook">
-                <span className="label">Facebook</span>
+              <OutboundLink href="https://facebook.com/darinlevesque/" className="icon">
+                <FontAwesomeIcon icon={faFacebook} /><span className="label">Facebook</span>
               </OutboundLink>
             </li>
             <li>
-              <OutboundLink href="https://www.instagram.com/jing0ric/" className="icon fa-instagram">
-                <span className="label">Instagram</span>
+              <OutboundLink href="https://www.instagram.com/jing0ric/" className="icon">
+                <FontAwesomeIcon icon={faInstagram} /><span className="label">Instagram</span>
               </OutboundLink>
             </li>
             <li>
-              <OutboundLink href="https://github.com/darinlevesque" className="icon fa-github">
-                <span className="label">GitHub</span>
+              <OutboundLink href="https://github.com/darinlevesque" className="icon">
+                <FontAwesomeIcon icon={faGithub} /><span className="label">GitHub</span>
               </OutboundLink>
             </li>
           </ul>
