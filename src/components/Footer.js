@@ -1,31 +1,45 @@
 import React from 'react'
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from 'gatsby'
 // import PropTypes from 'prop-types'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import csm from '../images/CSM-icon.webp'
 import TimeAgo from 'react-timeago'
 
 export default () => (
-        <StaticQuery
-          query={graphql`
-            query FooterQuery {
-                site {
-                    buildTime
-                    siteMetadata {
-                        author
-                      }
-                  }
-                }
-          `}
-          render={data => (
-            <footer id="footer">
-        <p className="copyright">&copy; {new Date().getFullYear()} { data.site.siteMetadata.author } - Adapted from <OutboundLink href="https://html5up.net/dimension">Dimension</OutboundLink>. Built with:{" "}
-            <OutboundLink href="https://www.gatsbyjs.org/">Gatsby</OutboundLink>. Served with <OutboundLink href="https://www.netlify.com">Netlify</OutboundLink>
+  <StaticQuery
+    query={graphql`
+      query FooterQuery {
+        site {
+          buildTime
+          siteMetadata {
+            author
+          }
+        }
+      }
+    `}
+    render={data => (
+      <footer id="footer">
+        <p className="copyright">
+          &copy; {new Date().getFullYear()} {data.site.siteMetadata.author} -
+          Adapted from{' '}
+          <OutboundLink href="https://html5up.net/dimension">
+            Dimension
+          </OutboundLink>
+          . Built with:{' '}
+          <OutboundLink href="https://www.gatsbyjs.org/">Gatsby</OutboundLink>.
+          Served with{' '}
+          <OutboundLink href="https://www.netlify.com">Netlify</OutboundLink>
         </p>
-        <p className="copyright">Last Updated <TimeAgo date={ data.site.buildTime } /></p>
-    </footer>
-          )}
-        />
-      )
+        <p className="copyright">
+          Last Updated <TimeAgo date={data.site.buildTime} />
+        </p>
+        <a href="http://bcert.me/shwtgxpkn" className="icon">
+          <img src={csm} />
+        </a>
+      </footer>
+    )}
+  />
+)
 // const Footer = (props) => (
 //     <footer
 //         id="footer"
