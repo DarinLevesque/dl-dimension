@@ -113,7 +113,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={tie} alt="" />
+            <img src={tie} alt="Man in suit and tie" />
           </span>
           <p>
             I grew up in a small seacoast town in New Hampshire and spent my
@@ -144,7 +144,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Education</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic03} alt="generic" />
           </span>
           <p>
             I am currently attending Arizona State University and plan to

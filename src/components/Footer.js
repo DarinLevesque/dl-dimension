@@ -33,8 +33,8 @@ export default () => (
         <p className="copyright">
           Last Updated <TimeAgo date={data.site.buildTime} />
         </p>
-        <a href="http://bcert.me/shwtgxpkn" className="icon">
-          <img src={csm} />
+        <a href="http://bcert.me/shwtgxpkn" aria-label="Darin's CSM certification" className="icon">
+          <img src={csm} alt="CSM Badge" />
         </a>
       </footer>
     )}

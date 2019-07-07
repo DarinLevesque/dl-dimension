@@ -7,7 +7,7 @@ const NotFoundPage = () => (
   <Layout>
     <div id="wrapper">
       <h1>404 error</h1>
-      <img src={error} />
+      <img src={error} alt="Gnome rainbow sickness" />
       <p>This makes me sick but...you just hit a route that doesn&#39;t exist</p>
       <Link to="/">
         <button>Go Home</button>
