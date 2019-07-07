@@ -121,17 +121,17 @@ class Main extends React.Component {
             <OutboundLink href="https://www.brewsteracademy.org/">
               Brewster Academy
             </OutboundLink>
-            . In 2004 I enlisted in the United States Marines Corps serving as a
+            . In 2004, I enlisted in the United States Marines Corps serving as a
             CH-46E Crew Chief. After one Iraq deployment I transitioned to the
             MV-22 Osprey and ended my service in 2014 as the V-22 Osprey
             program's Developmental Test Crew Chief. Since then I've supported
             NAVAIR and USACE in various roles relating to data analytics.
           </p>
-          <p>
+          {/*<p>
             My gracefully beautiful wife Kelli and our five children stay
             extremely busy with healthy activities. Whether we go to the farmers
             market,
-          </p>
+          </p>*/}
           {close}
         </article>
 
