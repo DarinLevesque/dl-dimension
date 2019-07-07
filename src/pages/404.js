@@ -5,10 +5,14 @@ import error from '../images/error.gif'
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>404 error</h1>
-    <img src={error} />
-    <p>You just hit a route that doesn&#39;t exist...It's sickening.</p>
-    <Link to="/"><button>Go Home</button></Link>
+    <div id="wrapper">
+      <h1>404 error</h1>
+      <img src={error} />
+      <p>This makes me sick but...you just hit a route that doesn&#39;t exist</p>
+      <Link to="/">
+        <button>Go Home</button>
+      </Link>
+    </div>
   </Layout>
 )
 
