@@ -40,7 +40,7 @@ const Header = props => (
           </span>
         </h4>
         <p>
-          I am a Senior Business Intelligence Developer
+          I am a Business Intelligence Engineer
           <br /> with{' '}
           <OutboundLink href="https://www.verticalapps.com/">
             Vertical Applications Inc.
