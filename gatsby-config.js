@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://darinlevesque.com',
     title: "Resume for Darin Levesque",
     author: "Darin Levesque",
     description: "A resume website for Darin Levesque"
@@ -7,6 +8,14 @@ module.exports = {
   pathPrefix: '/',
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://darinlevesque.com',
+        sitemap: 'https://darinlevesque.com/sitemap.xml'
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
