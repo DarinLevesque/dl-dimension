@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import Layout from '../components/layout'
 
 class Privacy extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class Privacy extends React.Component {
     const siteDescription = this.props.data.site.siteMetadata.description
 
     return (
-      <div>
+      <Layout>
         <Helmet>
           <title>{siteTitle}</title>
           <meta name="description" content={siteDescription} />
@@ -261,7 +262,7 @@ class Privacy extends React.Component {
             By visiting this page on our website: https://darinlevesque.com
           </li>
         </ul>
-      </div>
+      </Layout>
     )
   }
 }
