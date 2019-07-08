@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-class NewPage extends React.Component {
+class Privacy extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
@@ -266,10 +266,10 @@ class NewPage extends React.Component {
   }
 }
 
-export default NewPage
+export default Privacy
 
 export const pageQuery = graphql`
-  query NewPageQuery {
+  query PrivacyQuery {
     site {
       siteMetadata {
         title
