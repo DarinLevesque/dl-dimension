@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 // import PropTypes from 'prop-types'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import csm from '../images/CSM-icon.webp'
+import secPlus from '../images/comptia-security-ce-certification.png'
 import TimeAgo from 'react-timeago'
 
 export default () => (
@@ -33,8 +34,11 @@ export default () => (
         <p className="copyright">
           Last Updated <TimeAgo date={data.site.buildTime} />
         </p>
-        <a href="http://bcert.me/shwtgxpkn" aria-label="Darin's CSM certification" className="icon">
+        <OutboundLink href="http://bcert.me/shwtgxpkn" aria-label="Darin's CSM certification" className="icon">
           <img src={csm} alt="CSM Badge" />
+        </OutboundLink>
+        <a href="../images/CompTIA Security+ ce certificate.pdf" target="_blank" aria-label="Darin's CompTIA Security+ certification" className="icon">
+          <img src={secPlus} alt="Security+ Badge" />
         </a>
       </footer>
     )}
