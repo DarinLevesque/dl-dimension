@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import csm from '../images/CSM-icon.webp'
 import secPlus from '../images/comptia-security-ce-certification.png'
+import secPlusCert from '../images/CompTIA Security+ ce certificate.pdf'
 import TimeAgo from 'react-timeago'
 
 export default () => (
@@ -37,7 +38,7 @@ export default () => (
         <OutboundLink href="http://bcert.me/shwtgxpkn" aria-label="Darin's CSM certification" className="icon">
           <img src={csm} alt="CSM Badge" />
         </OutboundLink>
-        <a href="../images/CompTIA Security+ ce certificate.pdf" target="_blank" aria-label="Darin's CompTIA Security+ certification" className="icon">
+        <a href={secPlusCert} target="_blank" aria-label="Darin's CompTIA Security+ certification" className="icon">
           <img src={secPlus} alt="Security+ Badge" />
         </a>
       </footer>
