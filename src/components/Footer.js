@@ -35,7 +35,7 @@ export default () => (
         <p className="copyright">
           Last Updated <TimeAgo date={data.site.buildTime} />
         </p>
-        <OutboundLink href="http://bcert.me/shwtgxpkn" aria-label="Darin's CSM certification" className="icon">
+        <OutboundLink href="http://bcert.me/shwtgxpkn" target="_blank" aria-label="Darin's CSM certification" className="icon">
           <img src={csm} alt="CSM Badge" />
         </OutboundLink>
         <a href={secPlusCert} target="_blank" aria-label="Darin's CompTIA Security+ certification" className="icon">
