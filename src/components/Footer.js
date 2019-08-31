@@ -5,6 +5,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import csm from '../images/CSM-icon.webp'
 import secPlus from '../images/comptia-security-ce-certification.png'
 import secPlusCert from '../images/CompTIA Security+ ce certificate.pdf'
+import qlikAnalystQual from '../images/Qlik_Sense_Business_Analyst_Qualification_-_February_2019_Release.png'
 import TimeAgo from 'react-timeago'
 
 export default () => (
@@ -41,6 +42,9 @@ export default () => (
         <a href={secPlusCert} target="_blank" aria-label="Darin's CompTIA Security+ certification" className="icon">
           <img src={secPlus} alt="Security+ Badge" />
         </a>
+        <div className="icon">
+          <img src={qlikAnalystQual} alt="Qlik Sense Analyst Qualification Badge" />
+        </div>
       </footer>
     )}
   />
