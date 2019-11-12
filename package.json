@@ -37,8 +37,8 @@
     "react-timeago": "^4.4.0"
   },
   "devDependencies": {
-    "prettier": "^1.18.2",
-    "dotenv": "^8.0.0"
+    "prettier": "1.18.2",
+    "dotenv": "8.2.0"
   },
   "homepage": "https://darinlevesque.com",
   "keywords": [
