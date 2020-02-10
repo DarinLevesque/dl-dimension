@@ -48,6 +48,7 @@ const Layout = ({ children, location }) => {
             <html lang="en" />
           </Helmet>
           {content}
+          <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='b89783431fe6a46f6126301a0adc4272f3f42f52107ef032a55564e6624ccb45';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
         </>
       )}
     />
