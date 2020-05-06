@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://darinlevesque.com',
-    title: "Resume for Darin Levesque",
-    author: "Darin Levesque",
-    description: "A resume website for Darin Levesque"
+    title: 'Resume for Darin Levesque',
+    author: 'Darin Levesque',
+    description: 'A resume website for Darin Levesque',
   },
   pathPrefix: '/',
   plugins: [
@@ -13,8 +13,8 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://darinlevesque.com',
-        sitemap: 'https://darinlevesque.com/sitemap.xml'
-      }
+        sitemap: 'https://darinlevesque.com/sitemap.xml',
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -31,6 +31,7 @@ module.exports = {
 
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    `gatsby-plugin-purgecss`
-  ]
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-purgecss`,
+  ],
 }
