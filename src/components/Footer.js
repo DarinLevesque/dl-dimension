@@ -20,7 +20,7 @@ export default () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <footer id="footer">
         <p className="copyright">
           &copy; {new Date().getFullYear()} {data.site.siteMetadata.author} -
@@ -36,14 +36,29 @@ export default () => (
         <p className="copyright">
           Last Updated <TimeAgo date={data.site.buildTime} />
         </p>
-        <OutboundLink href="http://bcert.me/shwtgxpkn" target="_blank" aria-label="Darin's CSM certification" className="icon">
+        <OutboundLink
+          href="http://bcert.me/shwtgxpkn"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Darin's CSM certification"
+          className="icon"
+        >
           <img src={csm} alt="CSM Badge" />
         </OutboundLink>
-        <a href={secPlusCert} target="_blank" aria-label="Darin's CompTIA Security+ certification" className="icon">
+        <a
+          href={secPlusCert}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Darin's CompTIA Security+ certification"
+          className="icon"
+        >
           <img src={secPlus} alt="Security+ Badge" />
         </a>
         <div className="icon">
-          <img src={qlikAnalystQual} alt="Qlik Sense Analyst Qualification Badge" />
+          <img
+            src={qlikAnalystQual}
+            alt="Qlik Sense Analyst Qualification Badge"
+          />
         </div>
       </footer>
     )}

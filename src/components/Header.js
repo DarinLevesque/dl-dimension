@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faIdBadge } from '@fortawesome/free-regular-svg-icons'
 
-const Header = props => (
+const Header = (props) => (
   <header
     id="header"
     style={
@@ -20,7 +20,7 @@ const Header = props => (
     }
   >
     <div className="logo">
-      <img src={avatar} />
+      <img src={avatar} alt="avatar" />
     </div>
     <div className="content">
       <div className="inner">

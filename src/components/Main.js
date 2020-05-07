@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
+//import Link from 'gatsby-link'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -121,14 +121,14 @@ class Main extends React.Component {
             <OutboundLink href="https://www.brewsteracademy.org/">
               Brewster Academy
             </OutboundLink>
-            . In 2004, I enlisted in the United States Marines Corps serving as a
-            CH-46E Crew Chief with HMM-266 Fighting Griffins. I deployed with HMM-266 in 2005
-            and then transitioned to the MV-22 Osprey and deployed a second time in 2009.
-            I moved to San Diego to stand up the west coast Osprey squadrons then ended my
-            service in 2014 as the V-22 Osprey program's Developmental Test Crew Chief.
-            Since then I've supported NAVAIR and USACE in various roles relating to data analytics.
-
-            More details to come soon.
+            . In 2004, I enlisted in the United States Marines Corps serving as
+            a CH-46E Crew Chief with HMM-266 Fighting Griffins. I deployed with
+            HMM-266 in 2005 and then transitioned to the MV-22 Osprey and
+            deployed a second time in 2009. I moved to San Diego to stand up the
+            west coast Osprey squadrons then ended my service in 2014 as the
+            V-22 Osprey program's Developmental Test Crew Chief. Since then I've
+            supported NAVAIR and USACE in various roles relating to data
+            analytics. More details to come soon.
           </p>
           {/*<p>
             My gracefully beautiful wife Kelli and our five children stay

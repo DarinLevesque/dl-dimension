@@ -8,6 +8,8 @@ module.exports = {
   pathPrefix: '/',
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-robots-txt',
@@ -28,7 +30,19 @@ module.exports = {
         icon: 'src/images/dl6.png', // This path is relative to the root of the site.
       },
     },
-
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'SpaceX',
+        fieldName: 'spacex',
+        url: 'https://api.spacex.land/graphql/',
+        // refetch interval in seconds
+        refetchInterval: 500,
+        // A `fetch`-compatible API to use when making requests.
+        // fetch: (uri, options = {}) =>
+        //   fetch(uri, { ...options, headers: sign(options.headers) }),
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     `gatsby-plugin-netlify`,
