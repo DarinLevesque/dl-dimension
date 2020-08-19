@@ -152,7 +152,7 @@ class Main extends React.Component {
           <p>
             I am currently attending Arizona State University and plan to
             complete a Technological Entrepreneurship and Management Bachelors
-            of Science degree by March 2020.
+            of Science degree by December 2020.
           </p>
           {close}
         </article>

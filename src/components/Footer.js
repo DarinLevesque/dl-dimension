@@ -6,6 +6,7 @@ import csm from '../images/CSM-icon.webp'
 import secPlus from '../images/comptia-security-ce-certification.png'
 import secPlusCert from '../images/CompTIA Security+ ce certificate.pdf'
 import qlikAnalystQual from '../images/Qlik_Sense_Business_Analyst_Qualification_-_February_2019_Release.png'
+import qlikAnalystCert from '../images/Qlik_Sense-Certified-BusinessAnalyst-Tile-RGB (custom).png'
 import TimeAgo from 'react-timeago'
 
 export default () => (
@@ -54,10 +55,16 @@ export default () => (
         >
           <img src={secPlus} alt="Security+ Badge" />
         </a>
-        <div className="icon">
+        {/* <div className="icon">
           <img
             src={qlikAnalystQual}
             alt="Qlik Sense Analyst Qualification Badge"
+          />
+        </div> */}
+        <div className="icon">
+          <img
+            src={qlikAnalystCert}
+            alt="Qlik Sense Analyst Certification Badge"
           />
         </div>
       </footer>
