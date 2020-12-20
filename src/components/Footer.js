@@ -5,8 +5,8 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import csm from '../images/CSM-icon.webp'
 import secPlus from '../images/comptia-security-ce-certification.png'
 import secPlusCert from '../images/CompTIA Security+ ce certificate.pdf'
-import qlikAnalystQual from '../images/Qlik_Sense_Business_Analyst_Qualification_-_February_2019_Release.png'
-import qlikAnalystCert from '../images/Qlik_Sense-Certified-BusinessAnalyst-Tile-RGB (custom).png'
+//import qlikAnalystQual from '../images/Qlik_Sense_Business_Analyst_Qualification_-_February_2019_Release.png'
+import qlikAnalystCert from '../images/Qlik_Sense-Certified-BusinessAnalyst-Tile-RGB-small.png'
 import TimeAgo from 'react-timeago'
 
 export default () => (
