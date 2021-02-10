@@ -5,10 +5,6 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
 
-import Freshpaint from '@freshpaint/freshpaint-react-native';
-
-Freshpaint.init('780f8916-7a44-40e1-979c-54307967e02b');
-
 const Layout = ({ children, location }) => {
 
   let content;
