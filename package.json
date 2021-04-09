@@ -22,8 +22,6 @@
     "gatsby-plugin-sass": "^3.0.0",
     "gatsby-plugin-sharp": "^2.9.0",
     "gatsby-plugin-sitemap": "^2.7.0",
-    "gatsby-plugin-tawk": "^1.0.0",
-    "gatsby-plugin-tawk.to": "^1.0.7",
     "gatsby-remark-copy-linked-files": "^2.5.0",
     "gatsby-remark-images": "^3.6.0",
     "gatsby-source-filesystem": "^2.6.1",

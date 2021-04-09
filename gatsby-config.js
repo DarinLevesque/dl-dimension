@@ -43,20 +43,6 @@ module.exports = {
         //   fetch(uri, { ...options, headers: sign(options.headers) }),
       },
     },
-    {
-      resolve: `gatsby-plugin-tawk.to`,
-      options: {
-        tawkId: "59a630da7ab2de3aea9d73d6",
-        // get this from the tawk script widget
-      },
-    },
-    {
-      resolve: `gatsby-plugin-tawk`,
-      options: {
-        tawkId: "59a630da7ab2de3aea9d73d6",
-        // get this from the tawk script widget
-      },
-    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     `gatsby-plugin-netlify`,
