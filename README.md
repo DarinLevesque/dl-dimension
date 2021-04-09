@@ -1,5 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c9c42360-367d-4ca3-9d26-caad319616ee/deploy-status)](https://app.netlify.com/sites/gracious-hamilton-e18be6/deploys)
 
+![Jokes Card](https://readme-jokes.vercel.app/api)
+
 # Background
 This site was based off the Gatsby starter gatsby-starter-dimension which modeled from the Dimension site template, designed by [HTML5 UP](https://html5up.net/dimension). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
 
