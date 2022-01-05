@@ -5,7 +5,7 @@ import Obfuscate from 'react-obfuscate'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone, faUserGraduate} from '@fortawesome/free-solid-svg-icons'
 import { faIdBadge } from '@fortawesome/free-regular-svg-icons'
 
 const Header = (props) => (
@@ -78,13 +78,14 @@ const Header = (props) => (
             <FontAwesomeIcon icon={faIdBadge} /> About
           </a>
         </li>
-        {/*<li>
+        <li>
                     <a
                         href="javascript:;"
                         onClick={() => {
                         props.onOpenArticle('education')
-                    }}>Education</a>
-                </li> */}
+                    }}>
+                    <FontAwesomeIcon icon={faUserGraduate} /> Education</a>
+        </li>
         <li>
           <a
             href="javascript:;"
