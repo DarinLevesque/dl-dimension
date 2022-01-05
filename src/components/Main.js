@@ -128,7 +128,7 @@ class Main extends React.Component {
             west coast Osprey squadrons then ended my service in 2014 as the
             V-22 Osprey program's Developmental Test Crew Chief. Since then I've
             supported NAVAIR and USACE in various roles relating to data
-            analytics. More details to come soon.
+            analytics. 
           </p>
           {/*<p>
             My gracefully beautiful wife Kelli and our five children stay
@@ -150,9 +150,8 @@ class Main extends React.Component {
             <img src={pic03} alt="generic" />
           </span>
           <p>
-            I am currently attending Arizona State University and plan to
-            complete a Technological Entrepreneurship and Management Bachelors
-            of Science degree by December 2020.
+            I have a Bachelors of Science in Technological Entrepreneurship
+            & Management from Arizona State University.
           </p>
           {close}
         </article>
