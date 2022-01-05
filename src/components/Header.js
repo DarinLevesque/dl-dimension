@@ -40,10 +40,10 @@ const Header = (props) => (
           </span>
         </h4>
         <p>
-          I am a Business Intelligence Engineer
+          I am a Qlik Sense Developer
           <br /> with{' '}
-          <OutboundLink href="https://www.verticalapps.com/">
-            Vertical Applications Inc.
+          <OutboundLink href="https://trustedqa.com/">
+            Trusted QA.
           </OutboundLink>
           <br />
           I thrive in fast-paced, dynamic environments.
