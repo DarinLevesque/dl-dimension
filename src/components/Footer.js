@@ -6,7 +6,7 @@ import csm from '../images/CSM-icon.webp'
 import secPlus from '../images/comptia-security-ce-certification.png'
 import secPlusCert from '../images/CompTIA Security+ ce certificate.pdf'
 //import qlikAnalystQual from '../images/Qlik_Sense_Business_Analyst_Qualification_-_February_2019_Release.png'
-import qlikAnalystCert from '../images/Qlik_Sense-Certified-BusinessAnalyst-Tile-RGB-small.png'
+//import qlikAnalystCert from '../images/Qlik_Sense-Certified-BusinessAnalyst-Tile-RGB-small.png'
 import TimeAgo from 'react-timeago'
 
 export default () => (
@@ -62,10 +62,11 @@ export default () => (
           />
         </div> */}
         <div className="icon">
-          <img
+          {/*<img
             src={qlikAnalystCert}
             alt="Qlik Sense Analyst Certification Badge"
-          />
+          /> */}
+          <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="46cb80a3-351b-4fd9-8c4d-740118ed2390" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
         </div>
       </footer>
     )}
