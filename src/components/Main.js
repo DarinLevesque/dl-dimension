@@ -196,15 +196,15 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            <li>
-              <OutboundLink
-                href="https://www.linkedin.com/in/darinlevesque/"
-                className="icon"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-                <span className="label">LinkedIn</span>
-              </OutboundLink>
-            </li>
+//             <li>
+//               <OutboundLink
+//                 href="https://www.linkedin.com/in/darinlevesque/"
+//                 className="icon"
+//               >
+//                 <FontAwesomeIcon icon={faLinkedin} />
+//                 <span className="label">LinkedIn</span>
+//               </OutboundLink>
+//             </li>
             <li>
               <OutboundLink
                 href="https://twitter.com/darinlevesque"
