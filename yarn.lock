@@ -12020,9 +12020,9 @@ react-lifecycles-compat@^3.0.4:
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
 react-obfuscate@^3.6.8:
-  version "3.6.8"
-  resolved "https://registry.yarnpkg.com/react-obfuscate/-/react-obfuscate-3.6.8.tgz#31deede7ad8e69672165ec38b4d662135c6bdb5f"
-  integrity sha512-Pc47sbOJEGqOQ65y22ZFwCGHlSwGn0tykl+sQ64wHy/ALcyZxK6zsNYD8Fp3YBcU2EhmJPSKR7BypBYtnAqqyA==
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/react-obfuscate/-/react-obfuscate-3.7.0.tgz#835fee5707ec9e62fc6e123edf423c7ee43d0c88"
+  integrity sha512-y/sd0W8VuzoH6kGXjwdFCvCRxqBeffyaxrqyfWjACY8Ejl9sGaJbRf1iJXHYkQU4Va81G2triRkgHhsfNIx5FQ==
 
 react-refresh@^0.8.3:
   version "0.8.3"
